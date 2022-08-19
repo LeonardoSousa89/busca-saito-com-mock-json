@@ -17,8 +17,14 @@ let _dados={
     codigo_saito: _DOC.getElementById('codigo_saito')
 }
 
-// function parseDeCampos(el,dados){
-    
+//funções para melhoria do programa
+
+// function parseDeCampos(dados){
+//     JSON.parse(dados)
+// }
+
+// function receberDados(el,dados){
+//     el.append(dados)
 // }
 
 function obterEInserirDadosEmCampos(){
