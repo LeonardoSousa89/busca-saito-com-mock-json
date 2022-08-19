@@ -83,7 +83,7 @@ body {
             }
             @media screen and (max-device-width:750px)
             and (orientation:landscape) {
-                @include size(30%, 80%);
+                @include size(20%, 80%);
                 margin-right:0;
                 margin-bottom:20px;
             }
@@ -103,7 +103,7 @@ body {
             }
             @media screen and (max-device-width:750px)
             and (orientation:landscape) {
-                display: $none;
+                @include size(20%, 84%);
             }
             @include size(60px, 120px);
             @extend %radius;

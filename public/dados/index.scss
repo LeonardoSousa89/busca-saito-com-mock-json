@@ -1,11 +1,11 @@
 /* Color Theme Swatches in Hex */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
-$color-1-rgba: rgba(115,22,30, 0.3);
-$color-2-rgba: rgba(242,106,27, 1);
-$color-3-rgba: rgba(217,75,24, 1);
-$color-4-rgba: rgba(191,57,27, 1);
-$color-5-rgba: rgba(166,31,31, 1);
+$color-1-rgba: rgba(115, 22, 30, 0.3);
+$color-2-rgba: rgba(242, 106, 27, 1);
+$color-3-rgba: rgba(217, 75, 24, 1);
+$color-4-rgba: rgba(191, 57, 27, 1);
+$color-5-rgba: rgba(166, 31, 31, 1);
 
 $color-1-hex: #73161E;
 $color-2-hex: #F26A1B;
@@ -57,14 +57,41 @@ body {
     @include size(100vh, 100vw);
     margin: 0;
     font-family: 'Roboto', sans-serif;
+
+    .container {
+        @include d_flex(flex, row, $center, space-between);
+        @include size(80%, 80%);
+        padding: 1vh;
+
+        table {
+            text-align: start;
+            padding: 0.1vh;
+            background-color: $color-1-hex;
+            box-shadow: $color-1-hex 1px 1px 12px;
+            @extend %radius;
+            @include size(30%, 40%);
+
+            thead {
+                td {
+                    border: #73161E solid 2px;
+                    padding: 0.2vh;
+                    border: $color-5-rgba solid 2px;
+                    background-color: $color-5-hex;
+                    color: $big-light;
+                }
+
+            }
+
+            tbody {
+                td {
+                    border: #73161E solid 2px;
+                    padding: 0.2vh;
+                    border: $color-3-rgba solid 2px;
+                    background-color: $color-3-hex;
+                    color: brown;
+                }
+
+            }
+        }
+    }
 }
-
-
-
-
-
-
-
-
-
-
