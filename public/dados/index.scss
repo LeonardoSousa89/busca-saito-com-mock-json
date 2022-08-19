@@ -53,10 +53,26 @@ $landscape:landscape;
 }
 
 body {
-    @include d_flex(flex, row, $center, $center);
+    @include d_flex(flex, column, $center, $center);
     @include size(100vh, 100vw);
     margin: 0;
     font-family: 'Roboto', sans-serif;
+
+    button{
+        @include size(30px, 200px);
+        @extend %radius;
+        border: $none;
+        outline: $none;
+        cursor: pointer;
+        background-color: $color-5-hex;
+        color: $big-light;
+    
+        transition-property: all;
+        transition-duration: 0.5s;
+        &:hover {
+            background-color: $color-3-hex;
+        }
+    }
 
     .container {
         @include d_flex(flex, row, $center, space-between);
