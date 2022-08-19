@@ -1,0 +1,74 @@
+/* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body .container input, body .container button {
+  border-radius: 6px; }
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+  body .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    background-color: white;
+    padding: 1vh;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: #73161E 0px 0px 12px; }
+    @media screen and (max-device-width: 750px) {
+      body .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 80%; } }
+    body .container input {
+      height: 50px;
+      width: 400px;
+      border: solid 1px rgba(115, 22, 30, 0.3);
+      outline: none;
+      margin-right: 100px;
+      padding: 0.5em;
+      font-size: large; }
+      @media screen and (max-device-width: 750px) and (orientation: portrait) {
+        body .container input {
+          height: 15%;
+          width: 82%;
+          margin-right: 0;
+          margin-bottom: 20px; } }
+      @media screen and (max-device-width: 750px) and (orientation: landscape) {
+        body .container input {
+          height: 30%;
+          width: 80%;
+          margin-right: 0;
+          margin-bottom: 20px; } }
+    body .container button {
+      height: 60px;
+      width: 120px;
+      cursor: pointer;
+      background-color: #73161E;
+      color: whitesmoke;
+      border: hidden;
+      outline: hidden;
+      transition-property: all;
+      transition-duration: 0.5s; }
+      @media screen and (max-device-width: 750px) and (orientation: portrait) {
+        body .container button {
+          height: 15%;
+          width: 90%; } }
+      @media screen and (max-device-width: 750px) and (orientation: landscape) {
+        body .container button {
+          display: none; } }
+      body .container button:hover {
+        background-color: #BF391B; }

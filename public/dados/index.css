@@ -1,0 +1,45 @@
+/* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+  body .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 60%;
+    background-color: white;
+    padding: 1vh;
+    overflow: none;
+    border-radius: 6px;
+    box-shadow: #73161E 0px 0px 12px; }
+    body .container input {
+      height: 50px;
+      width: 400px;
+      border-radius: 6px;
+      border: solid 1px rgba(115, 22, 30, 0.3);
+      outline: none;
+      margin-right: 100px;
+      padding: 0.5em;
+      font-size: large; }
+    body .container button {
+      height: 60px;
+      width: 120px;
+      cursor: pointer;
+      background-color: #73161E;
+      border-radius: 6px;
+      color: whitesmoke;
+      border: hidden;
+      outline: hidden;
+      transition-property: all;
+      transition-duration: 0.5s; }
+      body .container button:hover {
+        background-color: #BF391B; }

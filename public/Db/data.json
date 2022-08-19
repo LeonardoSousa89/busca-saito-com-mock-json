@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nome": "Leonardo dos Santos Sousa",
+        "nascimento": "18/04/1989",
+        "UF": "BA",
+        "cidade": "salvador",
+        "CPF": "090.303.040-30",
+        "RG": "293186716",
+        "número_do_cartão": "5153 3884 4646 1207",
+        "data_de_validade": "19/05/2024",
+        "CVV": 438,
+        "bandeira": "master-card", 
+        "email":"leodevtec@gmail.com",
+        "codigo_saito":"@vgh1248.*/23"
+    },
+    {
+        "id": 2,
+        "nome": "Leonardo Moura Leitão",
+        "nascimento": "12/05/1975",
+        "UF": "FOR",
+        "cidade": "ceará",
+        "CPF": "614.498.010-56",
+        "RG": "294752365",
+        "número_do_cartão": "4231 6105 0583 1932",
+        "data_de_validade": "19/06/2023",
+        "CVV": 280,
+        "bandeira": "visa", 
+        "email":"leodevcod3r@gmail.com",
+        "codigo_saito":"@vg45rt%6&*/"
+    },
+    {
+        "id": 3,
+        "nome": "Lucio Fox",
+        "nascimento": "12/03/1988",
+        "UF": "RJ",
+        "cidade": "macaé",
+        "CPF": "160.147.870-46",
+        "RG": "179497789",
+        "número_do_cartão": "4716 1593 0779 3357",
+        "data_de_validade": "19/07/2024",
+        "CVV": 518,
+        "bandeira": "visa", 
+        "email":"lucioengdc@gmail.com",
+        "codigo_saito":"@vg454+9.658*/"
+    }
+]
